@@ -1,0 +1,161 @@
+﻿/*멋쟁이사자처럼 html 실습과제*/
+/*2018.03.25 강운기*/
+
+
+
+/*태그 CSS 모음*/
+body{
+    width:750px;
+    margin-right: auto;
+	margin-left: auto;
+    background-color: #cbc5c1;
+}
+
+b{
+    font-size: 30px;
+}
+
+a:link { 
+    color: white; 
+    text-decoration: none;
+}
+
+a:visited { 
+    color: white; 
+    text-decoration: none;
+}
+
+a:hover { 
+    color: black; 
+    text-decoration: none;
+}
+
+/*class CSS 모음*/
+.center{
+    margin-right: auto;
+	margin-left: auto;
+}
+
+.grid1{
+    background-color:#4c586f; 
+    height:100px;
+    right: 25px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.grid2{
+    background-color:#d0d3c5;
+    height: auto;
+    width:98%;
+}
+
+.grid3{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-top:50px;
+    margin-left: 25px;
+    padding-bottom: 50px;
+}
+
+.grid4{
+    display: inline-block;
+    width:49%;
+    color:white;
+    text-align: left;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.grid2 .grid1 p{
+    color: #d0d3c5;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    padding: 25px;
+    margin:0;
+}
+
+.grid3 p{
+    margin: 0;
+}
+
+.grid4 ul{
+    color:white; 
+    text-align:left; 
+    font-size:20px; 
+    margin:0;
+}
+
+.test-div{
+    background-color: skyblue;
+    width:200px;
+    border: 1px solid black;
+    font-size:20px;
+}
+
+.test-span{
+    background-color:pink;
+    width:200px;
+    border: 1px solid black;
+    font-size:20px;
+}
+
+/*id CSS 모음*/
+#header{
+    border: 2px solid #3e3e3b;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #a2aab0;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 30px;
+}
+
+#nav{
+    margin-top: 5px;
+    height: 30px;
+}
+
+#nav table th{
+    border: 5px solid #3e3e3b;
+    font-size: 20px;
+    width: 333.5px;
+    height: 50px;
+    vertical-align: middle;
+    background-color: #4c586f;
+}
+
+#content{
+    border: 3px dotted #3e3e3b;
+    background-color:#cbc5c1;
+    position: relative;
+    top: 27px;
+	height:auto;
+	text-align: center;
+}
+
+#footer{
+    border: 2px solid #3e3e3b;
+    font-size: 17px;
+    text-align: center;
+    background-color: #a2aab0;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 0px 0px 30px 30px;
+    position: relative;
+    top: 33px;
+}
+
+#cover{
+    z-index: 2;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom:70%;
+}
+
